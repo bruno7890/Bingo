@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Bingo/style/style.css">
+    <title>
+        Juego de Bingo
+    </title>
+    
+</head>
+
+<body>
+    
+    <center>
+        <h1>Juego de Bingo</h1>
+    </center>
+    <center>
+        <p class="pdrawBall" id="pdrawBall"></p>
+        Cantidad de cartones de Bingo: <input type="text" id="txtInput" placeholder="Ingrese el número de cartones">
+        <button onclick="draw()">Cartones</button>
+        <button id="btnDrawBall" onclick="drawBall()">SORTEO</button>
+        <button onclick="clearCards()">Limpiar</button>
+    </center>
+    </div>
+    <center>
+        <p id="pCount">No. de cartones: 0</p>
+    </center><br>
+    <center>
+        <div id="divBingoCard"></div>
+    </center>
+    <SCRIPT src="../Bingo/script/bingoCard.js"></SCRIPT>
+    <SCRIPT src="../Bingo/script/ballDraw.js"></SCRIPT>
+    <SCRIPT src="../Bingo/script/script.js"></SCRIPT>
+
+</body>
+
+</html>
